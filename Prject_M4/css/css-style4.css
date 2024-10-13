@@ -1,0 +1,186 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Ensures space between logo and nav items */
+    align-items: center; /* Vertically centers the content */
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.logo {
+    /* No additional styles needed, but you can adjust size if required */
+    height: 80px;
+    width: 220px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;    
+}
+
+li {
+    margin-left: 15px; /* Adds spacing between nav items */
+}
+.main-menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end; /* Aligns the main menu items to the right */
+}
+
+.main-menu > li {
+    position: relative; /* For positioning the submenu */
+    margin-left: 15px;
+}
+
+.sub-menu {
+    display: none; /* Hides the submenu by default */
+    position: absolute;
+    top: 100%; /* Positions submenu below the parent li */
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #33cfad; /* Optional: background color for submenu */
+    box-shadow: 0px 8px 16px rgba(167, 76, 76, 0.2); /* Optional: shadow for submenu */
+    }
+
+.main-menu2:hover .sub-menu {
+    display: block; /* Shows the submenu on hover */
+}
+
+.sub-menu li {
+    padding: 10px;
+}
+
+.sub-menu li a {
+    color: #1e0c6d; /* Optional: text color for submenu items */
+    text-decoration:none;
+}
+.sub-menu li a:hover {
+    text-decoration: underline; /* Adds the underline on hover */
+}
+
+div {
+    margin-bottom: 25px; /* Adjust the value as needed  */
+}
+
+
+  
+head{
+    display: none;}
+
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 115%;
+    }
+    
+    body {
+        display: block;
+        margin: 8px;
+    }
+    header {
+        display: block;
+        background-color: rgb(80, 216, 171);
+    }
+    
+        header {
+        /*display: block;*/
+        unicode-bidi: isolate;
+    }
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 115%;
+    }
+    
+       
+    a {
+        text-decoration: none;
+        color: rgb(21, 3, 100);
+        font-weight: bold;
+        
+    }
+    main {
+        padding: 20px;
+    }
+    
+    h1 {
+        color: #333;
+    }
+    
+    .ordering-info, .terms-conditions, .contact-info {
+        margin-bottom: 40px;
+    }
+    
+    .ordering-info ul {
+        list-style-type: disc; /* Ensures bullet points are used */
+        padding-left: 20px; /* Adds some padding to the left */
+    }
+    
+    .ordering-info li {
+        margin-bottom: 10px; /* Adds space between each list item */
+        line-height: 1.5; /* Improves readability */
+    }
+    /* ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    } */
+    
+    
+    .services-overview {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .service {
+        text-align: left;
+        width: 45%;
+        font-size: larger;
+        color: #055f14;
+    }
+    p {
+        color: rgb(212, 34, 34); /* Changes text color to red */
+        font-weight: bold; /* Makes the text bold */
+    }
+    .service img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        
+    }
+    
+   
+        footer {
+        background-color: rgb(236, 197, 164);
+    }
+    
+    .footer {
+        background-color: #ccd8c6; /* Light background for footer */
+        padding: 15px;
+        text-align: center; /* Centers the text within the footer */
+        border-top: 1px solid #e9e9e9; /* Optional: adds a top border to distinguish the footer */
+    }
+    
+    .footer a {
+        color: #f8fafc; /* Color of the links */
+        text-decoration: none; /* Removes underline from links */
+        margin: 0 10px; /* Adds space around the links */
+    }
+    
+    .footer a:hover {
+        text-decoration: underline; /* Underlines links on hover */
+    }
+    
+    .footer .mauvenormal {
+        font-weight: bold;
+        color: #A60000; /* Adjust to your preferred link color */
+
+    }
+    
+
+
+
